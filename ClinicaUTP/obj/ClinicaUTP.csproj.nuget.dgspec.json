@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\manue\\source\\repos\\ClinicaUTP\\ClinicaUTP\\ClinicaUTP.csproj": {}
+    "C:\\Users\\manue\\Desktop\\ClinicaUTP\\ClinicaUTP\\ClinicaUTP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\manue\\source\\repos\\ClinicaUTP\\ClinicaUTP\\ClinicaUTP.csproj": {
+    "C:\\Users\\manue\\Desktop\\ClinicaUTP\\ClinicaUTP\\ClinicaUTP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\manue\\source\\repos\\ClinicaUTP\\ClinicaUTP\\ClinicaUTP.csproj",
+        "projectUniqueName": "C:\\Users\\manue\\Desktop\\ClinicaUTP\\ClinicaUTP\\ClinicaUTP.csproj",
         "projectName": "ClinicaUTP",
-        "projectPath": "C:\\Users\\manue\\source\\repos\\ClinicaUTP\\ClinicaUTP\\ClinicaUTP.csproj",
+        "projectPath": "C:\\Users\\manue\\Desktop\\ClinicaUTP\\ClinicaUTP\\ClinicaUTP.csproj",
         "packagesPath": "C:\\Users\\manue\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\manue\\source\\repos\\ClinicaUTP\\ClinicaUTP\\obj\\",
+        "outputPath": "C:\\Users\\manue\\Desktop\\ClinicaUTP\\ClinicaUTP\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

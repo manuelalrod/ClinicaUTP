@@ -8,36 +8,78 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ClinicaUTP
-build_property.ProjectDir = C:\Users\manue\source\repos\ClinicaUTP\ClinicaUTP\
+build_property.ProjectDir = C:\Users\manue\Desktop\ClinicaUTP\ClinicaUTP\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/manue/source/repos/ClinicaUTP/ClinicaUTP/App.xaml]
+[C:/Users/manue/Desktop/ClinicaUTP/ClinicaUTP/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ClinicaUTP.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/manue/source/repos/ClinicaUTP/ClinicaUTP/AppShell.xaml]
+[C:/Users/manue/Desktop/ClinicaUTP/ClinicaUTP/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ClinicaUTP.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/manue/source/repos/ClinicaUTP/ClinicaUTP/MainPage.xaml]
+[C:/Users/manue/Desktop/ClinicaUTP/ClinicaUTP/Components/Card.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ClinicaUTP.Components.Card.xaml
+build_metadata.AdditionalFiles.TargetPath = Components\Card.xaml
+build_metadata.AdditionalFiles.RelativePath = Components\Card.xaml
+
+[C:/Users/manue/Desktop/ClinicaUTP/ClinicaUTP/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ClinicaUTP.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/manue/source/repos/ClinicaUTP/ClinicaUTP/Resources/Styles/Colors.xaml]
+[C:/Users/manue/Desktop/ClinicaUTP/ClinicaUTP/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ClinicaUTP.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/manue/source/repos/ClinicaUTP/ClinicaUTP/Resources/Styles/Styles.xaml]
+[C:/Users/manue/Desktop/ClinicaUTP/ClinicaUTP/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ClinicaUTP.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/manue/Desktop/ClinicaUTP/ClinicaUTP/Views/Home.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ClinicaUTP.Views.Home.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Home.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Home.xaml
+
+[C:/Users/manue/Desktop/ClinicaUTP/ClinicaUTP/Views/LoginRegister.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ClinicaUTP.Views.LoginRegister.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\LoginRegister.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\LoginRegister.xaml
+
+[C:/Users/manue/Desktop/ClinicaUTP/ClinicaUTP/Views/Messages.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ClinicaUTP.Views.Messages.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Messages.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Messages.xaml
+
+[C:/Users/manue/Desktop/ClinicaUTP/ClinicaUTP/Views/Profile.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ClinicaUTP.Views.Profile.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Profile.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Profile.xaml
+
+[C:/Users/manue/Desktop/ClinicaUTP/ClinicaUTP/Views/Quotes.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ClinicaUTP.Views.Quotes.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Quotes.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Quotes.xaml
+
+[C:/Users/manue/Desktop/ClinicaUTP/ClinicaUTP/Views/Welcome.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ClinicaUTP.Views.Welcome.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Welcome.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Welcome.xaml

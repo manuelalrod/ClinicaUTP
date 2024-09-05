@@ -6,6 +6,29 @@
     <ActiveDebugProfile>Windows Machine</ActiveDebugProfile>
   </PropertyGroup>
   <ItemGroup>
+    <MauiXaml Update="Components\Card.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Views\Home.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Views\LoginRegister.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Views\Messages.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Views\Profile.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Views\Quotes.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Views\Welcome.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+  </ItemGroup>
+  <ItemGroup>
     <None Update="App.xaml">
       <SubType>Designer</SubType>
     </None>

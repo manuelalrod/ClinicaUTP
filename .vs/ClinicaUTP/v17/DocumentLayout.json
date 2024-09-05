@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\manue\\source\\repos\\ClinicaUTP\\",
+  "WorkspaceRootPath": "C:\\Users\\manue\\Desktop\\ClinicaUTP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CFC4E1EA-045D-4CC7-B88E-4E718B9411DE}|ClinicaUTP\\ClinicaUTP.csproj|c:\\users\\manue\\source\\repos\\clinicautp\\clinicautp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFC4E1EA-045D-4CC7-B88E-4E718B9411DE}|ClinicaUTP\\ClinicaUTP.csproj|solutionrelative:clinicautp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CFC4E1EA-045D-4CC7-B88E-4E718B9411DE}|ClinicaUTP\\ClinicaUTP.csproj|c:\\users\\manue\\desktop\\clinicautp\\clinicautp\\clinicautp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CFC4E1EA-045D-4CC7-B88E-4E718B9411DE}|ClinicaUTP\\ClinicaUTP.csproj|solutionrelative:clinicautp\\clinicautp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MauiProgram.cs",
-              "DocumentMoniker": "C:\\Users\\manue\\source\\repos\\ClinicaUTP\\ClinicaUTP\\MauiProgram.cs",
-              "RelativeDocumentMoniker": "ClinicaUTP\\MauiProgram.cs",
-              "ToolTip": "C:\\Users\\manue\\source\\repos\\ClinicaUTP\\ClinicaUTP\\MauiProgram.cs",
-              "RelativeToolTip": "ClinicaUTP\\MauiProgram.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T05:14:53.622Z",
+              "Title": "ClinicaUTP",
+              "DocumentMoniker": "C:\\Users\\manue\\Desktop\\ClinicaUTP\\ClinicaUTP\\ClinicaUTP.csproj",
+              "RelativeDocumentMoniker": "ClinicaUTP\\ClinicaUTP.csproj",
+              "ToolTip": "C:\\Users\\manue\\Desktop\\ClinicaUTP\\ClinicaUTP\\ClinicaUTP.csproj",
+              "RelativeToolTip": "ClinicaUTP\\ClinicaUTP.csproj",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADEAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-04T20:07:31.56Z",
               "EditorCaption": ""
             }
           ]
