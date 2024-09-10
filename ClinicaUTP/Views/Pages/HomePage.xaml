@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ClinicaUtpNav.Pages.HomePage"
+              BackgroundColor="#F9F5F2">
+
+  
+    <ScrollView>
+        <VerticalStackLayout Padding="0" Spacing="20" BackgroundColor="White">
+            <!-- Encabezado con logo e información -->
+            <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Image Source="top.png" HeightRequest="200" WidthRequest="1200" Aspect="AspectFit" />
+            </VerticalStackLayout>
+
+            <Frame CornerRadius="5" Padding="20" BackgroundColor="#F0F0F0" HasShadow="False" BorderColor="Transparent" Margin="20">
+                <VerticalStackLayout Spacing="15">
+                    <Frame CornerRadius="20" Padding="0" BackgroundColor="#244162" HasShadow="False" BorderColor="Transparent">
+                        <StackLayout Orientation="Horizontal" Spacing="0" Padding="0">
+                            <Button x:Name="RegisterButton" 
+                                       Text="Registrarse" 
+                                       BackgroundColor="#244162" 
+                                       TextColor="White" 
+                                       FontAttributes="Bold" 
+                                       Clicked="OnRegisterButtonClicked"
+                                       HorizontalOptions="FillAndExpand"
+                                       VerticalOptions="FillAndExpand"
+                                        WidthRequest="137" />
+
+                            <Button x:Name="LoginButton" 
+                                   Text="Iniciar Sesión" 
+                                   BackgroundColor="#D4AF37" 
+                                   TextColor="White" 
+                                   FontAttributes="Bold" 
+                                   Clicked="OnLoginButtonClicked"
+                                   HorizontalOptions="FillAndExpand"
+                                   VerticalOptions="FillAndExpand"
+                                    WidthRequest="137" />
+                        </StackLayout>
+                    </Frame>
+
+                    <!-- Contenedor para las vistas de contenido -->
+                    <ContentView x:Name="ContentContainer">
+                        <!-- El contenido se cambiará dinámicamente aquí -->
+                    </ContentView>
+                </VerticalStackLayout>
+            </Frame>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
