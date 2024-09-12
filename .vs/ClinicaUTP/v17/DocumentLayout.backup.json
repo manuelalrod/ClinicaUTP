@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\manue\\Desktop\\ClinicaUTP\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CFC4E1EA-045D-4CC7-B88E-4E718B9411DE}|ClinicaUTP\\ClinicaUTP.csproj|c:\\users\\manue\\desktop\\clinicautp\\clinicautp\\clinicautp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CFC4E1EA-045D-4CC7-B88E-4E718B9411DE}|ClinicaUTP\\ClinicaUTP.csproj|solutionrelative:clinicautp\\clinicautp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClinicaUTP",
+              "DocumentMoniker": "C:\\Users\\manue\\Desktop\\ClinicaUTP\\ClinicaUTP\\ClinicaUTP.csproj",
+              "RelativeDocumentMoniker": "ClinicaUTP\\ClinicaUTP.csproj",
+              "ToolTip": "C:\\Users\\manue\\Desktop\\ClinicaUTP\\ClinicaUTP\\ClinicaUTP.csproj",
+              "RelativeToolTip": "ClinicaUTP\\ClinicaUTP.csproj",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADEAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-04T20:07:31.56Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
