@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ClinicaUtpNav.Pages.NewPage1"
+             BackgroundColor="#F9F5F2">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="0" Spacing="20" BackgroundColor="White">
+            <!-- Encabezado con logo e información -->
+
+            <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Image Source="top.png" HeightRequest="200" WidthRequest="1200" Aspect="AspectFit" />
+
+            </VerticalStackLayout>
+
+            <Frame CornerRadius="5" Padding="20" BackgroundColor="#F0F0F0" HasShadow="False" BorderColor="Transparent" Margin="20">
+                <VerticalStackLayout Spacing="15">
+                    <!-- Botones de Inicio de Sesión y Registrarse -->
+                    <Frame CornerRadius="5" Padding="0" BackgroundColor="White" HasShadow="False" BorderColor="Transparent">
+                        <FlexLayout Direction="Row" JustifyContent="SpaceBetween" Padding="0">
+                            <Button Text="Iniciar Sesión" 
+                        BackgroundColor="#244162" 
+                        TextColor="White" 
+                        FontAttributes="Bold" 
+                        CornerRadius="5" 
+                        HeightRequest="40"
+                        WidthRequest="150"
+                        Clicked="OnNextPageButtonClicked"/>
+
+                            <Button Text="Registrarse" 
+                            BackgroundColor="#D4AF37" 
+                              TextColor="White" 
+                              FontAttributes="Bold" 
+                              CornerRadius="5" 
+                              HeightRequest="40"
+                              WidthRequest="150" />
+                        </FlexLayout>
+                    </Frame>
+                    <!-- Campos de entrada de correo y contraseña -->
+                    <Entry Placeholder="Nombre de Usuario" BackgroundColor="#E0E0E0" Keyboard="Email" />
+                    <Entry Placeholder="E-Mail Universitario" BackgroundColor="#E0E0E0" Keyboard="Email" />
+                    <Entry Placeholder="Contraseña" IsPassword="True" BackgroundColor="#E0E0E0" />
+                    <Entry Placeholder="Confirmar Contraseña" IsPassword="True" BackgroundColor="#E0E0E0" />
+                    <!-- Botón de Inicio de Sesión -->
+                    <Button Text="Registrarse"
+                            BackgroundColor="#557C9A"
+                            TextColor="White"
+                            FontAttributes="Bold"
+                            CornerRadius="10"
+                            Margin="0,20,0,0" 
+                            HeightRequest="40"
+                            HorizontalOptions="Center"
+                            WidthRequest="200" />
+
+                    <!-- Enlace de Olvidaste tu contraseña -->
+                  
+                </VerticalStackLayout>
+            </Frame>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
