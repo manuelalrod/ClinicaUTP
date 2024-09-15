@@ -21,7 +21,7 @@
 		<Nullable>enable</Nullable>
 
 		<!-- Display name -->
-		<ApplicationTitle>ClinicaUTP</ApplicationTitle>
+		<ApplicationTitle>Clinica UTP</ApplicationTitle>
 
 		<!-- App Identifier -->
 		<ApplicationId>com.companyname.clinicautp</ApplicationId>
@@ -40,10 +40,10 @@
 
 	<ItemGroup>
 		<!-- App Icon -->
-		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
+		<MauiIcon Include="Resources\AppIcon\log.svg" ForegroundFile="Resources\AppIcon\logo.png" BaseSize="128, 128" ForegroundScale="0.50"/>
 
 		<!-- Splash Screen -->
-		<MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#512BD4" BaseSize="128,128" />
+		<MauiSplashScreen Include="Resources\Splash\logo_splash.svg" Color="#FFFFFF" BaseSize="128,128" />
 
 		<!-- Images -->
 		<MauiImage Include="Resources\Images\*" />
@@ -58,17 +58,25 @@
 
 	<ItemGroup>
 	  <AndroidResource Remove="NewFolder1\**" />
-	  <AndroidResource Remove="NewFolder\**" />
 	  <Compile Remove="NewFolder1\**" />
-	  <Compile Remove="NewFolder\**" />
 	  <EmbeddedResource Remove="NewFolder1\**" />
-	  <EmbeddedResource Remove="NewFolder\**" />
 	  <MauiCss Remove="NewFolder1\**" />
-	  <MauiCss Remove="NewFolder\**" />
 	  <MauiXaml Remove="NewFolder1\**" />
-	  <MauiXaml Remove="NewFolder\**" />
 	  <None Remove="NewFolder1\**" />
-	  <None Remove="NewFolder\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Remove="Resources\Images\back.svg" />
+	  <None Remove="Resources\Images\bell.svg" />
+	  <None Remove="Resources\Images\calendar.svg" />
+	  <None Remove="Resources\Images\home.svg" />
+	  <None Remove="Resources\Images\logout.svg" />
+	  <None Remove="Resources\Images\logo_t.png" />
+	  <None Remove="Resources\Images\message.svg" />
+	  <None Remove="Resources\Images\quotes.svg" />
+	  <None Remove="Resources\Images\settings.svg" />
+	  <None Remove="Resources\Images\user.svg" />
+	  <None Remove="Resources\Images\vaccine.svg" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -81,6 +89,15 @@
 	  <MauiXaml Update="Components\Card.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Components\TopBarP.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Components\TopBarS.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\Appointments.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\Home.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
@@ -90,10 +107,16 @@
 	  <MauiXaml Update="Views\Messages.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Views\Notificate.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\Profile.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\Quotes.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\Settings.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\Welcome.xaml">

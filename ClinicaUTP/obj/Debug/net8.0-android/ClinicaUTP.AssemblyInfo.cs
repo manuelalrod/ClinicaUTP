@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ClinicaUTP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+89d2b319f72118863fa92b3e639c7d4e8831168f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+9680c6977f8f2f5d723a07c144f9186cf5d1381d")]
 [assembly: System.Reflection.AssemblyProductAttribute("ClinicaUTP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ClinicaUTP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -3,13 +3,42 @@
     x:Class="ClinicaUTP.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:ClinicaUTP"
-    Shell.FlyoutBehavior="Disabled"
-    Title="ClinicaUTP">
+    xmlns:view="clr-namespace:ClinicaUTP.Views"
+    Shell.BackgroundColor="#1C4266"
+    Shell.NavBarIsVisible="False">
+
+    <TabBar>
+        <ShellContent
+            Title="Inicio"
+            Icon="home.svg"
+            ContentTemplate="{DataTemplate view:Home}"/>
+
+        <ShellContent
+            Title="Mensajes"
+            Icon="message.svg"
+            ContentTemplate="{DataTemplate view:Messages}"/>
+
+        <ShellContent
+            Title="Citas"
+            Icon="quotes.svg"
+            ContentTemplate="{DataTemplate view:Quotes}"/>
+
+        <ShellContent
+            Title="Perfil"
+            Icon="user.svg"
+            ContentTemplate="{DataTemplate view:Profile}"/>
+    </TabBar>
 
     <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        Title="Notificaciones"
+        ContentTemplate="{DataTemplate view:Notificate}"/>
+
+    <ShellContent
+        Title="Citas Asignadas"
+        ContentTemplate="{DataTemplate view:Appointments}"/>
+
+    <ShellContent
+        Title="Ajustes"
+        ContentTemplate="{DataTemplate view:Settings}"/>
 
 </Shell>

@@ -6,4 +6,10 @@ public partial class Messages : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void backButton(object sender, EventArgs e)
+    {
+        Navigation.PopToRootAsync();
+    }
+
 }

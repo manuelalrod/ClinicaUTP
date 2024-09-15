@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ClinicaUTP.Components.TopBarS"
+             x:Name="this"
+             BackgroundColor="#1C4266"
+             HeightRequest="60"
+             VerticalOptions="Start">
+
+    <Grid Padding="10" VerticalOptions="Center" ColumnSpacing="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <ImageButton 
+            Source="back.svg"
+            HeightRequest="30"
+            WidthRequest="30"
+            HorizontalOptions="Start"
+            Grid.Column="0"
+            Clicked="backButton"
+            IsVisible="{Binding visibleBackButton, Source={x:Reference this}}"/>
+        <Label 
+            Text="{Binding title, Source={x:Reference this}}"
+            FontSize="20"
+            FontAttributes="Bold"
+            TextColor="White"
+            Grid.Column="1"/>
+    </Grid>
+
+</ContentView>
